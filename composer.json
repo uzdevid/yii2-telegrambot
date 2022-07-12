@@ -1,0 +1,23 @@
+{
+    "name": "uzdevid/yii2-telegrambot",
+    "description": "Extension for working with Telegram bot on PHP framework Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ibragimov Diyorbek",
+            "email": "uzdevid@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "uzdevid\\telegrambot\\": ""
+        }
+    }
+}
